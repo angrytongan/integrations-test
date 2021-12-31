@@ -1,0 +1,1 @@
+Simple Sonar Cloud test.
