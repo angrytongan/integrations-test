@@ -19,7 +19,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
   cypress-run:
     runs-on: ubuntu-latest
-    stesps:
+    steps:
       - name: Checkout
         uses: actions/checkout@v2
         with:
