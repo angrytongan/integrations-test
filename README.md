@@ -3,9 +3,8 @@
 ### Done
 
 - SonarCloud
+- Cypress.io
 
 ### Todo
 
 - Github Projects
-- Cypress.io
-- TravisCI
