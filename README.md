@@ -5,7 +5,6 @@
 
 - SonarCloud
 - Cypress.io
+- Github Projects
 
 ### Todo
-
-- Github Projects
