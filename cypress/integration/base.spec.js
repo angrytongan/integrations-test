@@ -2,11 +2,11 @@
 
 describe('simple tests', () => {
     before(() => {
-        /*
-         * We need to wait a little, to let the client side kick in, otherwise
-         * we are doing testing on SSR, then the client side starts
-         */
-        cy.visit('http://localhost:3000').wait(1000);
+        cy.visit('http://localhost:3000');
+    });
+
+    it('wait for loading to finish', () => {
+        cy.get('[data-cy=loading]').should('not.exist');
     });
 
     it('clicks the button three times', () => {
