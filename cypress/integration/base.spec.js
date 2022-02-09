@@ -3,9 +3,6 @@
 describe('simple tests', () => {
     before(() => {
         cy.visit('http://localhost:3000');
-    });
-
-    it('wait for loading to finish', () => {
         cy.get('[data-cy=loading]').should('not.exist');
     });
 

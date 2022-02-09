@@ -49,7 +49,7 @@
 
 <style>
     div {
-        width: 700px;
+        max-width: 700px;
         margin: 0 auto;
         text-align: center;
     }
